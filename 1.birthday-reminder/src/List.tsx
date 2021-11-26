@@ -1,4 +1,5 @@
 import React from "react";
+import { PeopleData } from "./App";
 
 const List = (props: any) => {
   const { people } = props;
