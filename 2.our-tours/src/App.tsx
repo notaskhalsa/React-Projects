@@ -27,7 +27,6 @@ function App() {
     } catch (error) {
       setLoading(false);
       console.log(error);
-      
     }
   };
 
@@ -67,3 +66,11 @@ function App() {
 }
 
 export default App;
+function setTours(newTours: any) {
+  throw new Error("Function not implemented.");
+}
+
+function fetchTours() {
+  throw new Error("Function not implemented.");
+}
+

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './index.css'
+import './index'
 
 const Tour = (props:any) => {
   const { id, image, info, name, price, removeTour } = props
