@@ -6,9 +6,9 @@
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background: #F1F5F8;
-  color: #102A42;
+  color: #0f2841;
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
 }
 ul {
   list-style-type: none;
@@ -22,7 +22,7 @@ h3,
 h4 {
   letter-spacing: 0.1rem;
   text-transform: capitalize;
-  line-height: 1.25;
+  line-height: 1.5;
   margin-bottom: 0.75rem;
 }
 h1 {
@@ -64,9 +64,7 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
-/* section */
 .section {
   width: 90vw;
   margin: 5rem auto;
@@ -137,7 +135,7 @@ p {
 .job-info h4 {
   text-transform: uppercase;
   color: #617D98;
-  background: #DAE2EC;
+  background: #e3e6eb;
   display: inline-block;
   padding: 0.375rem 0.75rem;
   border-radius: 0.25rem;
@@ -204,4 +202,3 @@ p {
   color: #044E53;
   background: #88EBF2;
 }
-
