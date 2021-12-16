@@ -3,8 +3,8 @@ import data from './Data';
 
 
 function App() {
-  const [count, setCount] = useState<any>(0);
-  const [text, setText] = useState<any[]>([]);
+  const [count, setCount] = useState<number | string>(0);
+  const [text, setText] = useState<string[]>([]);
 
   const handleSubmit: React.FormEventHandler = (e) => {
     e.preventDefault();

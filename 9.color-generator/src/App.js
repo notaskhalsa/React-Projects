@@ -3,6 +3,15 @@ import SingleColor from './SingleColor'
 
 import Values from 'values.js'
 
+const getLocalStorage = () => {
+  let list = localStorage.getItem('list');
+  if (list) {
+    return (list = JSON.parse(localStorage.getItem('list')));
+  } else {
+    return [];
+  }
+};
+
 function App() {
   const [color, setColor] = useState('')
   const [error, setError] = useState(false)
@@ -13,6 +22,7 @@ function App() {
     try {
       let colors = new Values(color).all(10)
       setList(colors)
+      console.log(colors);
     } catch (error) {
       setError(true)
       console.log(error)

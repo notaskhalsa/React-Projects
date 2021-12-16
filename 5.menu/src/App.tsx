@@ -4,7 +4,7 @@ import Categories from './Categories';
 import items from './Data';
 // import './index.css'
 
-const allCategories = ['all', ...new Set(items.map((item) => item.category))];
+const allCategories: string[] = ['all', ...new Set(items.map((item) => item.category))];
 
 export type MenuData = {
   id:number,
