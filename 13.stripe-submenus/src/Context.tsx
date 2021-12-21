@@ -9,7 +9,7 @@ export type AppContextType = {
     openSubmenu: (text: string, coordinate: any) => void,
     closeSubmenu: () => void,
     page: PageType,
-    location: {}
+    location: {center: number, bottom: number}
 }
 
 export type PageType = {
@@ -29,7 +29,7 @@ const AppContext = React.createContext<AppContextType>({
   openSubmenu: (text: string, coordinate: any) => {},
   closeSubmenu: () => {},
   page: {page: '', links: []},
-  location: {}
+  location: {center: 0, bottom: 0}
 });
 
 const AppProvider: React.FC = (props) => {
